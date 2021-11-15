@@ -1,5 +1,6 @@
 provider "aws" {
   region  = var.region
+  profile = var.profile
 }
 
 module "ec2_instance" {
